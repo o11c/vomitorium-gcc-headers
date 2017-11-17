@@ -1,0 +1,1 @@
+#include "vgcc/cppdefault.h"

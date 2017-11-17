@@ -1,0 +1,1 @@
+#include "vgcc/bitmap.h"

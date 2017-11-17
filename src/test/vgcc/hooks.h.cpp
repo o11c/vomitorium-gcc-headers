@@ -1,0 +1,1 @@
+#include "vgcc/hooks.h"
