@@ -6,3 +6,18 @@
 #include <safe-ctype.h>
 #include "vgcc/vgcc-end.h"
 #endif
+
+// safe-ctype tries to kill these, but libstdc++ needs them
+#undef isalpha
+#undef isalnum
+#undef iscntrl
+#undef isdigit
+#undef isgraph
+#undef islower
+#undef isprint
+#undef ispunct
+#undef isspace
+#undef isupper
+#undef isxdigit
+#undef toupper
+#undef tolower

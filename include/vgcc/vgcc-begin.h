@@ -1,4 +1,4 @@
-#pragma once
+// NOT #pragma once
 #if VGCC_IS_C
 extern "C"
 {

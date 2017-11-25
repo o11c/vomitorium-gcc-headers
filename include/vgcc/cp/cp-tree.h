@@ -12,6 +12,9 @@
 #define cdk_reference cxx_cdk_reference
 #define cdk_ptrmem cxx_cdk_ptrmem
 #define cdk_error cxx_cdk_error
+
+// TODO: also needs to be defined if you use LANG_IDENTIFIER_CAST
+#define lang_identifier cxx_lang_identifier
 #endif
 
 #if HAS_VGCC_VERSION(0)
@@ -35,4 +38,6 @@
 #undef cdk_reference
 #undef cdk_ptrmem
 #undef cdk_error
+
+#undef lang_identifier
 #endif

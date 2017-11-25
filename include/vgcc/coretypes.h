@@ -6,3 +6,11 @@
 #include <coretypes.h>
 #include "vgcc/vgcc-end.h"
 #endif
+
+#if !HAS_VGCC_VERSION(6)
+typedef gimple gimple_ptr;
+typedef const_gimple const_gimple_ptr;
+#else
+typedef gimple *gimple_ptr;
+typedef const gimple *const_gimple_ptr;
+#endif

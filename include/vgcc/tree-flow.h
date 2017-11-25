@@ -1,6 +1,7 @@
 #pragma once
 #include "vgcc/vgcc-config.h"
 
+#include "vgcc/basic-block.h"
 #include "vgcc/bitmap.h"
 #include "vgcc/hard-reg-set.h"
 
